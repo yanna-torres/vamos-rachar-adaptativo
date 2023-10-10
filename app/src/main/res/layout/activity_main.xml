@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="25dp"
+    android:paddingVertical="15dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/image_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/split_bill_logo" />
+
+    <TextView
+        android:id="@+id/titleTxt"
+        style="@style/TITLE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/title"
+        app:layout_constraintTop_toBottomOf="@+id/logoImageView"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/totalTextInput"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:hint="Valor a ser dividido"
+        app:layout_constraintTop_toBottomOf="@+id/titleTxt"
+        app:startIconDrawable="@drawable/ic_cash">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/totalTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="numberDecimal"
+            android:text="0.00"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/peopleTextInput"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:hint="Quantidade de Pessoas"
+        app:layout_constraintTop_toBottomOf="@+id/totalTextInput"
+        app:startIconDrawable="@drawable/ic_group">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/peopleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:text="2" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/resultTxt"
+        style="@style/RESULT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="60dp"
+        android:text="R$ 0.00"
+        app:layout_constraintTop_toBottomOf="@+id/peopleTextInput"
+        tools:layout_editor_absoluteX="25dp" />
+
+
+    <Button
+        android:id="@+id/shareBtn"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="131dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:backgroundTint="#4E9619"
+        android:text="@string/button_share"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playBtn"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/playBtn"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="36dp"
+        android:layout_weight="1"
+        android:backgroundTint="#4E9619"
+        android:text="@string/button_speak"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
