@@ -12,8 +12,7 @@
         android:id="@+id/logoImageView"
         android:layout_width="179dp"
         android:layout_height="91dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginStart="84dp"
         android:contentDescription="@string/image_label"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -26,15 +25,15 @@
         android:layout_height="48dp"
         android:layout_marginTop="24dp"
         android:text="@string/title"
-        app:layout_constraintTop_toBottomOf="@+id/logoImageView"
-        tools:layout_editor_absoluteX="27dp" />
+        app:layout_constraintEnd_toStartOf="@+id/peopleTextInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoImageView" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/totalTextInput"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="286dp"
         android:layout_height="57dp"
-        android:layout_marginTop="64dp"
         android:hint="Valor a ser dividido"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.562"
@@ -82,41 +81,50 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="R$ 0.00"
-        app:layout_constraintTop_toBottomOf="@+id/titleTxt"
-        tools:layout_editor_absoluteX="85dp" />
-
-    <Button
-        android:id="@+id/shareBtn"
-        style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="131dp"
-        android:layout_height="47dp"
-        android:layout_gravity="center_vertical"
-        android:layout_weight="1"
-        android:backgroundTint="#4E9619"
-        android:text="@string/button_share"
-        android:textColor="@color/white"
-        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/playBtn"
-        app:layout_constraintHorizontal_bias="0.751"
-        app:layout_constraintStart_toEndOf="@+id/resultTxt"
-        app:layout_constraintTop_toBottomOf="@+id/peopleTextInput"
-        app:layout_constraintVertical_bias="0.528" />
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTxt"
+        app:layout_constraintVertical_bias="0.22" />
 
-    <Button
-        android:id="@+id/playBtn"
-        style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="113dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:layout_marginEnd="76dp"
-        android:layout_weight="1"
-        android:backgroundTint="#4E9619"
-        android:text="@string/button_speak"
-        android:textColor="@color/white"
-        android:textSize="12sp"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="343dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toEndOf="@+id/titleTxt"
         app:layout_constraintTop_toBottomOf="@+id/peopleTextInput"
-        app:layout_constraintVertical_bias="0.508" />
+        app:layout_constraintVertical_bias="0.299">
+
+        <Button
+            android:id="@+id/playBtn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="76dp"
+            android:layout_weight="1"
+            android:backgroundTint="#4E9619"
+            android:text="@string/button_speak"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/shareBtn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:backgroundTint="#4E9619"
+            android:text="@string/button_share"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
