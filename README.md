@@ -8,7 +8,7 @@
 >
 > **Professor:** Dr. Windson Viana
  
-**Sumário: [A Atividade](#a-atividade-page_with_curl) • [Ícone, Paleta de Cores e Novo Layout](#ícone-paleta-de-cores-e-layouts-paintbrush) • [Suporte para várias línguas](#suporte-para-várias-línguas-book) • [Suporte a duas classes de Tamanho de Tela](#suporte-a-duas-classes-de-tamanho-de-tela-iphone) • [Resultados](#resultados-play_or_pause_button) •**
+**Sumário: [A Atividade](#a-atividade-page_with_curl) • [Ícone, Paleta de Cores e Novo Layout](#ícone-paleta-de-cores-e-layouts-paintbrush) • [Suporte para várias línguas](#suporte-para-várias-línguas-book) • [Suporte a duas classes de Tamanho de Tela](#suporte-a-duas-classes-de-tamanho-de-tela-iphone) •**
 
 ## A atividade :page_with_curl:
 
@@ -50,8 +50,9 @@ Continuando a aplicação dos requisitos da tarefa, agora o app Vamos Rachar? po
 
 ## Suporte a duas classes de Tamanho de Tela :iphone:
 
-Por fim, o app também possui suporte a tamanhos variados de tela.
+Por fim, o app também possui suporte a tamanhos variados de tela, mais especificamente para as dimensões do Nexus S (480x800) e do Nexus 10 (2560x1600).
 
-## Resultados :play_or_pause_button:
 
-![Gravação de Tela](final.gif)
+| ![Big Screen Layout](nexus10.png)      |
+|----------------------------------------|
+| ![Small Screen Layout](land_dark.jpeg) |

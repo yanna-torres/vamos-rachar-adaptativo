@@ -5,4 +5,6 @@
     <string name="image_label">Duas mãos com uma moeda no meio representando a logo</string>
     <string name="button_share">Compartilhar</string>
     <string name="button_speak">Reproduzir</string>
+    <string name="split_value_hint">Valor a ser dividido</string>
+    <string name="people_hint">Quantidade de Pessoas</string>
 </resources>

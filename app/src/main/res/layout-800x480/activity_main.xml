@@ -67,16 +67,18 @@
             android:text="2" />
     </com.google.android.material.textfield.TextInputLayout>
 
+
     <TextView
         android:id="@+id/resultTxt"
         style="@style/RESULT"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="60dp"
+        android:layout_marginVertical="20dp"
         android:text="R$ 0.00"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/peopleTextInput"
-        tools:layout_editor_absoluteX="25dp" />
-
+        app:layout_constraintVertical_bias="0.011"
+        tools:layout_editor_absoluteX="33dp" />
 
     <Button
         android:id="@+id/shareBtn"
@@ -100,7 +102,7 @@
         android:layout_width="113dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="4dp"
         android:layout_weight="1"
         android:backgroundTint="#4E9619"
         android:text="@string/button_speak"

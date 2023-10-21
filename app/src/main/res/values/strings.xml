@@ -4,4 +4,6 @@
     <string name="image_label">Two hands with a coin in the middle representing the logo</string>
     <string name="button_share">Share</string>
     <string name="button_speak">Play</string>
+    <string name="split_value_hint">Amount to be splited</string>
+    <string name="people_hint">Amount of people</string>
 </resources>
