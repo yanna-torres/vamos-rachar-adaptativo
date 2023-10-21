@@ -8,7 +8,7 @@
 >
 > **Professor:** Dr. Windson Viana
  
-**Sumário: [A Atividade](#a-atividade-page_with_curl) • [Ícone, Paleta de Cores e Novo Layout](#ícone-paleta-de-cores-e-layouts-paintbrush) • [Calculando o resultado](#calculando-o-resultado-abacus) • [Compartilhando o resultado](#compartilhando-o-resultado-postbox) • [Reproduzindo o resultado](#reproduzindo-o-resultado-loud_sound) • [Resultados](#resultados-play_or_pause_button) •**
+**Sumário: [A Atividade](#a-atividade-page_with_curl) • [Ícone, Paleta de Cores e Novo Layout](#ícone-paleta-de-cores-e-layouts-paintbrush) • [Suporte para várias línguas](#suporte-para-várias-línguas-book) • [Suporte a duas classes de Tamanho de Tela](#suporte-a-duas-classes-de-tamanho-de-tela-iphone) • [Resultados](#resultados-play_or_pause_button) •**
 
 ## A atividade :page_with_curl:
 
