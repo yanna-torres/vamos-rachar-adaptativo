@@ -53,6 +53,6 @@ Continuando a aplicação dos requisitos da tarefa, agora o app Vamos Rachar? po
 Por fim, o app também possui suporte a tamanhos variados de tela, mais especificamente para as dimensões do Nexus S (480x800) e do Nexus 10 (2560x1600).
 
 
-| ![Big Screen Layout](nexus10.png)      |
-|----------------------------------------|
-| ![Small Screen Layout](land_dark.jpeg) |
+| ![Big Screen Layout](nexus10.png)  |
+|------------------------------------|
+| ![Small Screen Layout](nexusS.png) |
