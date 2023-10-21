@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Vamos Rachar?</string>
-    <string name="title">Vamos Rachar?</string>
-    <string name="image_label">Duas mãos com uma moeda no meio representando a logo</string>
-    <string name="button_share">Compartilhar</string>
-    <string name="button_speak">Reproduzir</string>
+    <string name="app_name">Let\'s split?</string>
+    <string name="title">Let\'s split?</string>
+    <string name="image_label">Two hands with a coin in the middle representing the logo</string>
+    <string name="button_share">Share</string>
+    <string name="button_speak">Play</string>
 </resources>
